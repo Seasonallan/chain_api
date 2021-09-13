@@ -1,6 +1,4 @@
 library chain_api;
-
-
 import 'package:bip39/bip39.dart' as bip39;
 import 'package:dart_bip32_bip44/dart_bip32_bip44.dart';
 import 'package:web3dart/web3dart.dart';
@@ -9,7 +7,6 @@ import 'package:web3dart/web3dart.dart';
 class Calculator {
   /// Returns [value] plus 1.
   int addOne(int value) => value + 1;
-
 
   Future<String> getKey() async{
     //随机生成助记词
